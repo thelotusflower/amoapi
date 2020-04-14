@@ -1,22 +1,17 @@
-==================
-UNMAINTAINED AmoCRM python API. 
-==================
+amoCRM python API wrapper 
+-------------------------
 
-.. image:: https://travis-ci.org/Krukov/amocrm_api.svg?branch=master
-    :target: https://travis-ci.org/Krukov/amocrm_api
-.. image:: https://img.shields.io/coveralls/Krukov/amocrm_api.svg
-    :target: https://coveralls.io/r/Krukov/amocrm_api
+python [amoCRM](https://www.amocrm.ru/) API wrapper with a human interface for easy use
 
-
-Python AmoCRM API (http://www.amocrm.ru/) (human interface for easy using )
+forked from [amocrm_api](https://github.com/Krukov/amocrm_api)  
 
 
 Installation
 ============
 
-::
-
-    pip install amocrm_api
+```
+pip install amoapi
+```
 
 
 Usage
