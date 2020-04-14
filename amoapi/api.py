@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import absolute_import, unicode_literals
 from .base import _BlankMixin, _BaseAmoManager, _Helper
 from .utils import lazy_dict_property
 

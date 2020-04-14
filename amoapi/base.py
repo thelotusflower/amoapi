@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import absolute_import, unicode_literals
 import json
 from abc import *
 from collections import defaultdict
@@ -14,13 +12,13 @@ from .settings import settings
 from .utils import lazy_dict_property, lazy_property, User
 from .exceptions import *
 
-logger = logging.getLogger('amocrm')
+logger = logging.getLogger('amoapi')
 
 __all__ = []
 
 _AMO_LOGIN_PATH = '/private/api/auth.php?type=json'
 _REQUEST_PARAMS = {
-    'headers': {'User-Agent': 'Amocrm API module. Python powered'},
+    'headers': {'User-Agent': 'amoCRM API module. Python powered'},
     'timeout': 10,
 }
 _G, _P = 'get', 'post'

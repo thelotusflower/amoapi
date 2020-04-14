@@ -1,14 +1,12 @@
-# -*- coding: utf-8 -*-
-from __future__ import print_function, unicode_literals
 import datetime
 
 import logging
 
-logging.getLogger('amocrm').setLevel(logging.DEBUG)
+logging.getLogger('amoapi').setLevel(logging.DEBUG)
 
 
 # LOW level API
-from amocrm import AmoApi
+from amoapi import AmoApi
 
 amo_api = AmoApi('krukov@centrobit.ru', '4b332718c4c5944003af7e6389860ced', 'testcentrobit')
 
@@ -22,7 +20,7 @@ print(amo_api.contacts.all())
 
 
 ## HIGH level API
-from amocrm import BaseContact, amo_settings, fields
+from amoapi import BaseContact, amo_settings, fields
 
 amo_settings.set('krukov@centrobit.ru', '4b332718c4c5944003af7e6389860ced', 'testcentrobit')
 
@@ -51,7 +49,7 @@ print(contact.tasks)
 
 #===================
 
-from amocrm import BaseLead, LeadTask, amo_settings
+from amoapi import BaseLead, LeadTask, amo_settings
 
 amo_settings.set('krukov@centrobit.ru', '4b332718c4c5944003af7e6389860ced', 'testcentrobit')
 

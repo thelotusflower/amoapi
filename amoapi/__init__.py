@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import absolute_import, unicode_literals
-
-__version__ = '0.8.5'
-
 import sys
 import logging
 
@@ -16,7 +11,7 @@ __all__ = [
     'LeadNote', 'LeadTask', 'fields',
 ]
 
-logger = logging.getLogger('amocrm')
+logger = logging.getLogger('amoapi')
 
 if not logger.handlers:
     formatter = logging.Formatter(

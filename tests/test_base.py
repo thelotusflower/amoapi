@@ -1,12 +1,10 @@
-# -*- coding: utf-8 -*-
-from __future__ import absolute_import, unicode_literals
 import copy
 import unittest
 from datetime import datetime, timedelta
 
-from amocrm import amo_settings, BaseContact, BaseCompany, BaseLead, ContactTask,\
+from amoapi import amo_settings, BaseContact, BaseCompany, BaseLead, ContactTask,\
     ContactNote, LeadTask, LeadNote, fields
-from amocrm.test_utils import amomock
+from amoapi.test_utils import amomock
 
 from_ts = datetime.fromtimestamp
 

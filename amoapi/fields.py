@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import absolute_import, unicode_literals
-
 import logging
 from datetime import datetime
 from calendar import timegm
@@ -12,7 +9,7 @@ from .exceptions import UneditableFieldError
 
 __all__ = ['CustomField', u'EnumCustomField', 'ForeignField', 'ManyForeignField']
 
-logger = logging.getLogger('amocrm')
+logger = logging.getLogger('amoapi')
 CHOICE_TYPE = '4'
 MULTI_LIST_TYPE = '5'
 

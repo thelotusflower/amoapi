@@ -1,11 +1,9 @@
-# -*- coding: utf-8 -*-
-from __future__ import absolute_import, unicode_literals
 import unittest
 import time
 from datetime import datetime, timedelta
 
-from amocrm import fields
-from amocrm.test_utils import amomock
+from amoapi import fields
+from amoapi.test_utils import amomock
 
 
 class TestBaseFields(unittest.TestCase):

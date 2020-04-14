@@ -1,16 +1,8 @@
-# -*- coding: utf-8 -*-
-from __future__ import absolute_import, unicode_literals
 import json
 import os
 import time
 from functools import wraps
-
-import six
-if six.PY2:
-    from urlparse import urlparse, parse_qsl
-else:
-    from urllib.parse import urlparse, parse_qsl
-
+from urllib.parse import urlparse, parse_qsl
 from responses import RequestsMock
 
 DIR = os.path.normpath(os.path.dirname(__file__))

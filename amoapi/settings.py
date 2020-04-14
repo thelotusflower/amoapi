@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import absolute_import, unicode_literals
 
 __all__ = ['settings']
 
@@ -22,5 +20,6 @@ class Settings(object):
             'domain': self.domain,
             'responsible_user': self.responsible_user
         }
+
 
 settings = Settings()
