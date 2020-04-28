@@ -1,11 +1,11 @@
 from setuptools import setup
 
-with open('README.md', 'r') as readme_file:
+with open('README.md', encoding='utf8') as readme_file:
     long_description = readme_file.read()
 
 setup(
     name='amoapi',
-    version='0.9.0',
+    version='0.9.1',
     packages=['amoapi'],
     url='https://github.com/digitalduke/amoapi',
     license='MIT license',
