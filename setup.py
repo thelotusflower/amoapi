@@ -26,6 +26,7 @@ setup(
         'responses >=0.2.2,<0.6',
         'six >=1.7.3',
         'pytz',
+        'pyjwt',
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
